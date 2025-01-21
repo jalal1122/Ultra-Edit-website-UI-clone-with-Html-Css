@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar-div {
+    display: flex;
+    margin-top: 3vh;
+}
+
+.top-left-logo {
+    display: inline;
+}
+
+#top-left-logoid {
+    margin-left: 5vw;
+}
+
+.rest-of-navbar {
+    display: flex;
+    margin-left: 21vw;
+    gap: 3vw;
+    align-items: center;
+}
+
+.nav-bar-items {
+    font-size: 1.2em;
+}
+
+#search-imgid {}
+
+#donwload-ultraedit-main-heading {
+    font-weight: lighter;
+    text-align: center;
+    font-style: bold;
+    font-size: 45px;
+    margin-top: 13vh;
+}
+
+.main-heading-and-reviews-div {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+#Reviews-imgid {
+    margin-left: 3vw;
+}
+
+.below-main-heading-p {
+    text-align: center;
+    font-size: 25px;
+    font-style: bold;
+    font-weight: 1;
+    margin-top: 5vh;
+    padding: 0px 150px;
+}
+
+.below-main-heading-div {
+    text-align: center;
+}
+
+.main-heading-button {
+    font-size: 15px;
+    background: #00b6d1;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 8vh;
+    border: none;
+    padding: 15px 20px;
+    font-weight: bolder;
+}
+
+.language-donwload-div {
+    display: flex;
+    margin: 10vh 20vw;
+    gap: 1.5vw;
+}
+
+.little-bigger {
+    text-align: center;
+    align-content: center;
+    font-size: 2em;
+}
+
+.small-text {}
+
+.paragragh-in-language-downlaod {
+    display: flex;
+    gap: 0.8vw;
+    align-items: baseline;
+}
+
+.languages-different {
+    display: flex;
+    width: 64vw;
+    height: 168vh;
+    margin: 5vh 20vw;
+    flex-wrap: wrap;
+
+    /* grid-template-areas: "one two three" */
+    /* "four five six" */
+    /* "seven eight nine" */
+    /* "ten eleven twelve"; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    gap: 2vw;
+}
+
+.boxes {
+    background: #f9f9f9;
+    border-radius: 3%;
+    text-wrap: wrap;
+    width: 20vw;
+    height: 40vh;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.boxes h2 {
+    margin: 5% 22%;
+}
+
+.boxes button {
+    width: 40%;
+    height: 15%;
+    border-radius: 10px;
+    margin-top: 4vh;
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+}
+
+.boxes h4 {
+    margin: 2%;
+    font-size: 0.7em;
+}
+
+.boxes p {
+    font-size: 0.5em;
+    padding-top: 10px;
+    overflow-wrap: break-word;
+    padding: 0px 20px;
+}
+
+.box-1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.box-2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.box-3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.box-1-button {
+    margin-top: 7.8vh;
+}
+
+.black-div {
+    background-color: #222;
+    height: 45vh;
+    padding: 20vh 25vw;
+}
+
+.black-div-items {
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.black-div-flex-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.heading-and-paragraph-flex-container-but-not-flex {
+    text-align: center;
+    margin: 0px 30px
+}
+
+.subcribe-form {
+    width: 25vw;
+    height: 25vh;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    align-self: flex-start;
+}
+
+.subcribe-form h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subscribe-form-input {
+    width: 70%;
+    height: 20%;
+}
+
+.subcribe-form button {
+    font-size: 15px;
+    background: #00b6d1;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    padding: 15px 20px;
+    font-weight: bolder;
+    width: 70%;
+    border: 1px solid;
+    border-color: rgba(51, 51, 51, .16);
+}
+
+footer {
+    height: 65vh;
+}
+
+.footer-item {
+    width: 12vw;
+    margin: 0px 2vw;
+}
+
+.lists-flex {
+    display: flex;
+    margin: 7vh 10vw;
+
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.fifth-colum-footer input {
+    width: 90%;
+    padding: 8px;
+}
+
+.fifth-colum-footer button {
+    width: 100%;
+    font-size: 15px;
+    background: #00b6d1;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    padding: 12px 20px;
+    font-weight: bolder;
+    border: 1px solid;
+    border-color: rgba(51, 51, 51, .16);
+}
+
+.ending {
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh 20vw;
+}
+
+.social-media-logos {
+    align-self: center;
+}
